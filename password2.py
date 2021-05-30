@@ -8,5 +8,6 @@ while count < 3 :
     elif count > 0 :
         print ('密碼錯誤! 還有',count,'次機會')
         count = count - 1
-    else:
+    elif count == 0 :
+        print ('帳號鎖定')
         break
